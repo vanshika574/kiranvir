@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+   
+    html{
+        scroll-behavior:smooth;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar ul{
+        overflow: auto;
+    }
+.navbar{
+    background-color: rgb(202, 53, 78);
+    width: 80%;
+    margin:  20px 200px;
+    border-radius: 5px;
+    position: fixed;
+    z-index: +1;
+    
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+   color: black;
+   font-weight: 600;
+}
+
+
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+    position: fixed;
+}
+
+.box1, .box2, .box3, .box4{
+    height: 700px;
+    background: rgb(215, 235, 227);
+    display: inline-block;
+    width: 80%;
+    margin:  20px 200px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#portfolio{
+  height: 500px;   
+  position:static;
+}
+#about{
+    height: 150px;
+    text-align:center;
+}
+#project, #language{
+    height: 300px;
+    text-align:center;
+}
+
+.box1 img {
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    border: 8px solid rgb(226, 223, 223);
+}
+#portfolio p:nth-child(2){
+    
+   font-family:calibri;
+   font-weight: bold;
+   font-size: 50px;
+}
+#portfolio p:nth-child(3){
+
+    font-family:calibri;
+    letter-spacing: 4px;
+    line-height: 140px;
+    font-size: 22px;
+ }
+ #portfolio p:nth-child(4){
+
+font-family:Times New Roman;
+line-height: 200px;
+font-size: 20px;
+}
+#portfolio p{
+    position:absolute;
+    top: 200px;
+    left: 55%;
+    line-height: 1px;
+}
+#but{
+    color: blue;
+    margin-top: 350px;
+    margin-left: 50%;
+    background: none;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    font-size: 25px;  
+}
+#portfolio #but:hover{
+    color:#fff;
+    cursor: pointer;
+}
+.box3{
+    display: table;
+    text-align: center;
+}
+
+.box2.project.one {
+    margin: 60px 0px;
+    width: 80%;
+    height: 5%;
+    border: 2px solid;
+    position: absolute;
+    justify-content: left;
+}
+.box2.project.two {
+margin: 120px 0px;
+width: 80%;
+height: 5%;
+border: 2px solid;
+display: flex;
+justify-self: left;
+position: absolute;
+justify-content: left;
+
+}
+.box2.project.three {
+margin: 180px 0px;
+width: 80%;
+height: 5%;
+border: 2px solid;
+display: flex;
+justify-content: left;
+justify-self: left;
+position: absolute;
+}
+.project{
+height: 6px;
+width: 80%;
+background-color: rgb(235, 219, 219);
+
+padding: 20px;
+display: flex;
+justify-content:left;
+margin: 4px 10%;
+position:relative;
+}
+.box3.Languages.one {
+    margin: 60px 0px;
+    width: 80%;
+    height: 5%;
+    border: 2px solid;
+    position: absolute;
+    justify-content: left;
+}
+.box3.Languages.Two {
+    margin: 120px 0px;
+        width: 80%;
+        height: 5%;
+        border: 2px solid;
+        display: flex;
+        justify-self: left;
+        position: absolute;
+        justify-content: left;
+}
+.box3.Languages.Three {
+    margin: 180px 0px;
+    width: 80%;
+    height: 5%;
+    border: 2px solid;
+    display: flex;
+    justify-content: left;
+    justify-self: left;
+    position: absolute;
+}
+.Languages {
+    height: 7px;
+    width: 80%;
+    background-color: rgb(235, 219, 219);
+    
+    padding: 20px;
+    display: flex;
+    justify-content:left;
+    margin: 4px 10%;
+    position: relative;
+}
+
+   
+    @media screen (max-width: 950px)
+    .box1{
+                background-color: green ;
+                width: 250px;
+                height: 250px;
+    }
