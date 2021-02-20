@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 1</title>
-    <link rel="stylesheet" href="style.css">
+    <title>The Color Game Project</title>
+    <link rel="stylesheet" href="build/style.css">
+    <script src="engine/panel-item-contextmenu.js"></script>
+    <script src="engine/panel-item.js"></script>
+    <script src="engine/panel-item-clock.js"></script>
+    <script src="engine/desktop.js"></script>
+    <script src="engine/panel.js"></script>
+    <script src="engine/window.js"></script>
 </head>
-
 <body>
-    <h2 id="heading">Dinasaurs Are Crazy Creature</h2>
-    <div class="mydiv">
-            <img src="a.jpg" id="slide">
-	</div>
-	<script src="script.js"></script>
+    <div id="gameContent">
+        <div class="gameHeader">
+            <h1>The great</h1><h1><span id="headerRGBValue">RGB(255, 0, 0)</span></h1> <h1>color guessing game.</h1><p id="displayedResult"></p>
+        </div>
+        <div class="colors">
+            <div class="colorObj"></div><div class="colorObj"></div><div class="colorObj"></div><div class="colorObj"></div><div class="colorObj"></div><div class="colorObj"></div>
+        </div>
+        <footer>
+            <div id="tryAgain">Try again?</div>
+            <div id="difficultyPicker"><span id="diffEasy">EASY</span> &nbsp;<span id="diffHard">HARD</span></div>
+        </footer>
+    </div>
+    <script src="game.js"></script>
 </body>
-
 </html>

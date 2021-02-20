@@ -1,28 +1,8 @@
+@import 'themes/newtheme/theme';
+@import 'game/style';
 
-.mydiv{
-  
-    margin-left: 100px;
-    margin-right: 100px;
-    border: 10px solid rgb(226, 223, 223);
-    box-shadow: 10px 10px 15px black;
-    height:300px;
-    display: flex;
-}
-
-#slide{
-   margin:auto;
-    width: 50%;
-    height:100%;
-
-}
-
-#heading{
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-
-body{
-    background-color:rgb(204, 204, 255);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
